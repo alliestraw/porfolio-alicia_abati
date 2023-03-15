@@ -1,0 +1,254 @@
+* {
+    font-family: Helvetica;
+}
+
+body {
+    padding-top: 40px;
+    background-color: #eff4fb;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav * {
+    color: #040404;
+}
+
+#section1 {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    max-width: 800px;
+    margin: 50px 0;
+}
+
+#coverProject {
+    background-color: #cb493e;
+    border-radius: 16px;
+    padding: 32px;
+    color: #eff4fb;
+    background-image: url("../../images/proyecto1-netflix/img-netflix.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+}
+#coverProjectDiv1 {
+    margin-bottom: 200px;
+}
+
+#section2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 1000px;
+    /* background-color: red; */
+}
+#sec2div1 {
+    width: 60%;
+    /* background-color: orange; */
+}
+.redText {
+    color: #cb493e;
+}
+#sec2div1botones {
+    display: flex;
+    gap: 32px;
+}
+
+#section2 img {
+    width: 40%;
+    /* background-color: blue; */
+}
+
+#section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    max-width: 1000px;
+    margin-bottom: 50px;
+    /* background-color: red; */
+}
+
+#sec3div1 h2 {
+    margin-bottom: 0px;
+}
+
+#sec3div1Parrafos {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 32px;
+}
+
+#sec3div2 {
+    display: flex;
+}
+
+.sec3div2Porcentaje {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.sec3div2Porcentaje img {
+    width: 80%;
+}
+
+#bar {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    align-self: flex-end;
+    gap: 50px;
+    background-color: #b2cbc6;
+    width: 80%;
+    max-width: 1450px;
+    border-radius: 500px 0 0 500px;
+}
+
+#barDiv1 {
+    /* background-color: rebeccapurple; */
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 32px;
+}
+
+#barDiv1 > img {
+    max-height: 150px;
+    width: auto;
+    border-radius: 100%;
+}
+
+#barDiv1Contenido {
+    max-width: 200px;
+    /* background-color: red; */
+}
+
+#barDiv1Contenido h4 {
+    margin: 8px 0;
+}
+#barDiv1ContenidoHashtag {
+    margin: 0;
+    color: #7d8188;
+}
+
+#barDiv2 {
+    /* background-color: rebeccapurple; */
+    min-width: 30%;
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.barDiv2contenido {
+    color: #eff4fb;
+}
+
+.barDiv2contenido h4 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.barDiv2contenido p {
+    margin: 0;
+}
+
+#section4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    max-width: 1000px;
+    margin-bottom: 50px;
+    /* background-color: red; */
+}
+#section4 h2 {
+    margin-bottom: 50px;
+}
+#sec4div1 {
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.sec4div1texto h3 {
+    color: #cb493e;
+    margin-bottom: -10px;
+}
+
+#sec4div1textos1 {
+    text-align: right;
+}
+
+#sec4div1 img {
+    height: 400px;
+}
+
+#section5 {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    width: 80%;
+    max-width: 1000px;
+    margin-bottom: 50px;
+    /* background-color: red; */
+}
+.section5Caja {
+    width: 25%;
+}
+
+.section5Caja > img {
+    width: 140%;
+    transform: translateX(-40%);
+}
+.section5CajaTexto h4 {
+    color: #cb493e;
+    margin: 8px 0;
+    font-weight: bold;
+}
+
+.section5CajaTexto p {
+    margin: 0;
+}
+.bandaNegra {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #040404;
+    color: #eff4fb;
+}
+
+#section6 {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    width: 80%;
+    max-width: 1000px;
+    position: relative;
+    /* background-color: red; */
+}
+#section6 h2 {
+    align-self: flex-start;
+    margin: 0;
+}
+#section6 video {
+    width: 50%;
+}
+
+#botonReadMore {
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+}

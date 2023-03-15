@@ -1,0 +1,155 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 800px;
+}
+
+nav * {
+    text-decoration: none;
+    color: #eff4fb;
+    list-style: none;
+}
+
+nav img {
+    height: 40px;
+}
+
+#linksNav {
+    display: flex;
+    gap: 24px;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 20px 0;
+    background-color: #b2cbc6;
+    width: 100%;
+}
+
+footer img {
+    height: 30px;
+}
+
+.botonTipo1 {
+    font-size: 0.6rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: #071112;
+}
+
+.botonTipo1>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eff4fb;
+    width: 100px;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.botonTipo1>div:hover {
+    box-shadow: inset 0 0 20px rgba(210, 242, 232, 0.5), 0 0 20px rgba(193, 220, 231, 0.4);
+    outline-color: rgba(49, 138, 172, 0);
+    outline-offset: 80px;
+}
+
+.botonTipo2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #071112;
+    border: solid 1.5px #eff4fb;
+    width: 100px;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.botonTipo2>div {
+    font-size: 0.6rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: #eff4fb;
+}
+
+.botonTipo2:hover {
+    box-shadow: inset 0 0 20px rgba(210, 242, 232, 0.5), 0 0 20px rgba(193, 220, 231, 0.4);
+    outline-color: rgba(49, 138, 172, 0);
+    outline-offset: 80px;
+}
+
+.botonTipo3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eff4fb;
+    width: fit-content;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.botonTipo3 a {
+    font-size: 0.6rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: #071112;
+}
+
+.botonTipo4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #071112;
+    width: fit-content;
+    padding: 6px 12px;
+    border-radius: 80px;
+}
+
+.botonTipo4 a {
+    font-size: 0.6rem;
+    text-decoration: none;
+    font-weight: normal;
+    color: #eff4fb;
+}
+
+.botonTipo5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eff4fb;
+    border: solid 1.5px #071112;
+    width: fit-content;
+    padding: 6px 12px;
+    border-radius: 80px;
+}
+
+.botonTipo5 a {
+    font-size: 0.6rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: #071112;
+}
+
+
+/* Selector for buttonType4 */
+.botonTipo4:hover a {
+    background-color: black;
+    color: #b2cbc6;
+}
+
+/* Selector for buttonType5 */
+.botonTipo5.botonTipo5:hover {
+    background-color: black;
+}
+
+.botonTipo5.botonTipo5:hover a {
+    color: #b2cbc6;
+}
+
+.blur {
+    filter: blur(1px);
+}
